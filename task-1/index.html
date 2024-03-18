@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="wipper">
+        <h1 class="title">Услуги по видам работ</h1>
+        <div class="form" id="form">
+            <label for="work-1">Цена замены масла:</label>
+            <input type="text" class="work" id="work-1">
+            <label for="work-1resource">Кол-во услуг:</label>
+            <input type="text" class="work" id="resource-1">
+            <br><br>
+            <label for="work-2">Цена замены колодок:</label>
+            <input type="text" class="work" id="work-2">
+            <label for="work-2resource">Кол-во услуг:</label>
+            <input type="text" class="work" id="resource-2">
+            <br><br>
+            <label for="work-3">Цена ремонта двигателя:</label>
+            <input type="text" class="work" id="work-3">
+            <label for="work-3resource">Кол-во услуг:</label>
+            <input type="text" class="work" id="resource-3">
+            <br><br>
+            <button onclick="calculate()"id="saveBtn">Рассчитать</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
