@@ -1,0 +1,14 @@
+.contact-card {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    }
+.label {
+    margin-right: 10px; /* отступ справа от label */
+}
+    
+.input {
+    margin-bottom: 10px; /* отступ снизу от input */
+}
